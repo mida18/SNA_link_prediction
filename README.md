@@ -8,8 +8,8 @@
 <br>
 
 ## Make features
-#### Collect missing edges to obtain negative samples to provide training for binary classifiers.  
-#### Train/validation/test cutting(Make sure that the ratio of positive and negative samples is equal when cutting to avoid training difficulties caused by sample imbalance).
+#### 1) Collect missing edges to obtain negative samples to provide training for binary classifiers.  
+#### 2) Train/validation/test cutting(Make sure that the ratio of positive and negative samples is equal when cutting to avoid training difficulties caused by sample imbalance).
 
 |      Data        | Number for training |  Number for testing  |      All data      |  
 |:----------------:|:-------------------:|:--------------------:|:------------------:|  
@@ -17,7 +17,7 @@
 | train data       |      #  28,638      |       #  12,276      |     #  40,914      |  
 | all data         |      #  40,914      |       #  10,231      |     #  51,145      |       
 
-#### Extract features
+#### 3) Extract features
 > * Jaccard’s_coefficient  
 > * Adamic / Adar_Index  
 > * Shortest path  
