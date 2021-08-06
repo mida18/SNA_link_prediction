@@ -1,11 +1,9 @@
 ## Social Network Analysis - link prediction
 
 ## Task description
-> This assignment is to predict whether a node pair (node1, node2) has hidden relation (i.e., hidden edge). 
-> 
-> There are about 20,000 edges provided for reconstructing the social network and the training dataset. (This is a directed network, so each node pair represents a directed edge. E.g., (361, 981) represents an edge from node 361 to node 981.)  
->   
-> The social network has about 5,000 hidden edges. These are the relationships that need to be predicted.
+#### This assignment is to predict whether a node pair (node1, node2) has hidden relation (i.e., hidden edge).<br>
+#### There are about 20,000 edges provided for reconstructing the social network and the training dataset. (This is a directed network, so each node pair represents a directed edge. E.g., (361, 981) represents an edge from node 361 to node 981.) <br>
+#### The social network has about 5,000 hidden edges. These are the relationships that need to be predicted. <br>
 <br>
 
 ## Make features
