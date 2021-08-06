@@ -4,15 +4,17 @@
 > This assignment is to predict whether a node pair (node1, node2) has hidden relation (i.e., hidden edge).
 > 
 > There are about 20,000 edges provided for reconstructing the social network and the training dataset.  
->> This is a directed network, so each node pair represents a directed edge. E.g., (361, 981) represents an edge from node 361 to node 981.  
+> note: this is a directed network, so each node pair represents a directed edge. E.g., (361, 981) represents an edge from node 361 to node 981.  
 > 
 > The social network has about 5,000 hidden edges. These are the relationships that need to be predicted.
 <br>
 
 ## Make features
-#### 1) Collect missing edges to obtain negative samples to provide training for binary classifiers.  
+#### 1) Negative sampling
+> Collect missing edges to obtain negative samples to provide training for binary classifiers.  
+> 
 #### 2) Train/validation/test cutting  
-> make sure that the ratio of positive and negative samples is equal when cutting to avoid training difficulties caused by sample imbalance.
+> Make sure that the ratio of positive and negative samples is equal when cutting to avoid training difficulties caused by sample imbalance.
 
 |      Data        | Number for training |  Number for testing  |         All        |  
 |:----------------:|:-------------------:|:--------------------:|:------------------:|  
