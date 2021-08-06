@@ -12,7 +12,7 @@
 #### 1) Collect missing edges to obtain negative samples to provide training for binary classifiers.  
 #### 2) Train/validation/test cutting (make sure that the ratio of positive and negative samples is equal when cutting to avoid training difficulties caused by sample imbalance).
 
-|      Data        | Number for training |  Number for testing  |      All data      |  
+|      Data        | Number for training |  Number for testing  |         All        |  
 |:----------------:|:-------------------:|:--------------------:|:------------------:|  
 | validation data  |      #  22,910      |       #   5,728      |     #  28,638      |   
 | train data       |      #  28,638      |       #  12,276      |     #  40,914      |  
