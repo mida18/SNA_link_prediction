@@ -54,11 +54,11 @@
 > As can be seen from the figure (the red is the sample with link=1, and the blue is the sample with link=0), this data set may belong to a non-linear separable state, so we can consider using a kernel-based classifier when choosing a model.  
 > 
 ![image](https://github.com/mida18/SNA_link_prediction/blob/main/Fig/2D_pca.png)<br>
-
+<br>
 ## Model training
 #### The training process is divided into three parts: validation, test and predict.  
 #### Models：
 > * RandomForest  
 > * kernel SVM  
-#### The final score on the Public Leaderboard is approximately between 89% and 91%.<br>
+#### The final score on the Public Leaderboard is approximately between 89% and 91%.<br><br>
 #### For more detailed information, please refer to [report](https://github.com/mida18/SNA_link_prediction/blob/main/HW1_report.pdf)
