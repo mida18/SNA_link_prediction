@@ -9,7 +9,7 @@
 
 ## Make features
 #### 1) Collect missing edges to obtain negative samples to provide training for binary classifiers.  
-#### 2) Train/validation/test cutting(Make sure that the ratio of positive and negative samples is equal when cutting to avoid training difficulties caused by sample imbalance).
+#### 2) Train/validation/test cutting (make sure that the ratio of positive and negative samples is equal when cutting to avoid training difficulties caused by sample imbalance).
 
 |      Data        | Number for training |  Number for testing  |      All data      |  
 |:----------------:|:-------------------:|:--------------------:|:------------------:|  
@@ -30,20 +30,22 @@
 <br>
 
 ## Visualize
-#### Feature importance
+#### 1) Feature importance
 > Use RandomForestClassifier to complete model training to obtain feature importance scores as a reference for feature selection.  
-![image](https://github.com/mida18/SNA_link_prediction/blob/main/Fig/feature_importance_RF.png)  
-<br>
-#### Discriminative abilities of features
+
+![image](https://github.com/mida18/SNA_link_prediction/blob/main/Fig/feature_importance_RF.png)<br>
+
+
+#### 2) Discriminative abilities of features
 > Observe the discriminative power that each feature can contribute to model prediction.  
-![image](https://github.com/mida18/SNA_link_prediction/blob/main/Fig/discriminative_abilities_of_features.png)  
-<br>
-#### Dimension reduction
+
+![image](https://github.com/mida18/SNA_link_prediction/blob/main/Fig/discriminative_abilities_of_features.png)<br>
+
+#### 3) Dimension reduction
 > PCA is used for dimensionality reduction, so that the sample distribution can be visualized to provide a reference for the selection of the classifier.  
 > The red is the sample with link=1, and the blue is the sample with link=0.  
 > As can be seen from the figure, this data set may belong to a non-linear separable state, so we can consider using a kernel-based classifier when choosing a model.
-![image](https://github.com/mida18/SNA_link_prediction/blob/main/Fig/2D_pca.png)  
-<br>
+![image](https://github.com/mida18/SNA_link_prediction/blob/main/Fig/2D_pca.png)<br>
 
 ## Model training
 > The training process is divided into three parts: validation, test and predict.  
