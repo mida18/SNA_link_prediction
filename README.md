@@ -56,5 +56,4 @@
 > * RandomForest  
 > * kernel SVM  
 #### The final score on the Public Leaderboard is approximately between 89% and 91%.<br>
-
-## For more detailed information, please refer to [report][https://github.com/mida18/SNA_link_prediction/blob/main/HW1_report.pdf]
+#### For more detailed information, please refer to [report](https://github.com/mida18/SNA_link_prediction/blob/main/HW1_report.pdf)
