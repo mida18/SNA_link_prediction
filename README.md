@@ -1,9 +1,8 @@
 ## Social Network Analysis - link prediction
 
 ## Task description
-> This assignment is to predict whether a node pair (node1, node2) has hidden relation (i.e., hidden edge).   
-> There are about 20,000 edges provided for reconstructing the social network and the training dataset. 
-> (This is a directed network, so each node pair represents a directed edge. E.g., (361, 981) represents an edge from node 361 to node 981.)  
+> This assignment is to predict whether a node pair (node1, node2) has hidden relation (i.e., hidden edge). There are about 20,000 edges provided for reconstructing the social network and the training dataset. (This is a directed network, so each node pair represents a directed edge. E.g., (361, 981) represents an edge from node 361 to node 981.)  
+>   
 > The social network has about 5,000 hidden edges. These are the relationships that need to be predicted.
 <br>
 
@@ -43,8 +42,7 @@
 
 #### 3) Dimension reduction
 > PCA is used for dimensionality reduction, so that the sample distribution can be visualized to provide a reference for the selection of the classifier.  
-> The red is the sample with link=1, and the blue is the sample with link=0.  
-> As can be seen from the figure, this data set may belong to a non-linear separable state, so we can consider using a kernel-based classifier when choosing a model.
+> As can be seen from the figure (the red is the sample with link=1, and the blue is the sample with link=0), this data set may belong to a non-linear separable state, so we can consider using a kernel-based classifier when choosing a model.
 ![image](https://github.com/mida18/SNA_link_prediction/blob/main/Fig/2D_pca.png)<br>
 
 ## Model training
